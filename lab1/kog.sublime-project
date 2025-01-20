@@ -1,0 +1,25 @@
+{
+  "build_systems":
+  [
+    {
+      "name": "Gradle",
+      "shell_cmd": "gradle build --console=plain",
+      "working_dir": "${project_path}",
+      "file_regex": "^[ew]: file:///(.:[^:]*):(\\d+):(\\d+) ([^\n]+)",
+      "syntax": "Packages/User/GradleOutput/GradleOutput.sublime-syntax"
+    }
+  ],
+  "folders":
+  [
+    {
+      "path": "client"
+    },
+    {
+      "path": "webglmath"
+    }    
+  ],
+  "settings":
+  {
+    "tab_size": 2
+  }
+}

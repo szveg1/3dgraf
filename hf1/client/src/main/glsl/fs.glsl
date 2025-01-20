@@ -1,0 +1,13 @@
+#version 300 es
+
+precision highp float;
+
+in vec2 tex;
+
+out vec4 fragmentColor; //#vec4# A four-element vector [r,g,b,a].; Alpha is opacity, we set it to 1 for opaque.; It will be useful later for transparency.
+
+uniform struct{ sampler2D colorTexture;} material;
+
+void main(void) {
+  fragmentColor = texture(material.colorTexture, tex) + vec4(0.0, 0.4, 1.0, 1.0);
+}

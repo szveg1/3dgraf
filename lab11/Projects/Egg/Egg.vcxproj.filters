@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{addfcacb-b9c1-4b0c-b2a6-ac1fbca43160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{e9bf0940-7800-41d7-9421-28edaa364b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App">
+      <UniqueIdentifier>{6b056da7-d8a7-4ec1-a308-c2fe344c49d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Cam">
+      <UniqueIdentifier>{f30f658e-4553-4fad-8cf4-dd80e8b7d9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enum">
+      <UniqueIdentifier>{30091059-ae16-4a31-9092-8329e48d13b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{29609b34-b942-41b2-be4d-daf8d40386c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh">
+      <UniqueIdentifier>{4c396fce-2d48-481a-8cac-cb6cae1c17c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App\App.cpp">
+      <Filter>Source\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\convertutf.c">
+      <Filter>Source\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SystemEnvironment.cpp">
+      <Filter>Source\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\UtfConverter.cpp">
+      <Filter>Source\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Cam\FirstPerson.cpp">
+      <Filter>Source\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\constants.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Flip.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\GeometryLoader.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Importer.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Indexed.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\InputBinder.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Instanced.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Material.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Mien.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Multi.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Nothing.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Shaded.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Shader.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\ShaderReflectionGUID.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\VertexStream.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\App.h">
+      <Filter>Source\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\convertutf.h">
+      <Filter>Source\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\stdConversions.h">
+      <Filter>Source\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SystemEnvironment.h">
+      <Filter>Source\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\UtfConverter.h">
+      <Filter>Source\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\D3DEnumOps.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Geometry.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\GeometryLoader.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Importer.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Indexed.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Instanced.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Material.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Nothing.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Shaded.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\VertexStream.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\ShaderStageFlag.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\InputBinder.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Flip.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Mien.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Multi.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum\EnumFramework.h">
+      <Filter>Source\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum\EnumFramework_Config.h">
+      <Filter>Source\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum\EnumFramework_Custom.h">
+      <Filter>Source\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum\EnumFramework_Magic.h">
+      <Filter>Source\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\bool1.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\bool2.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\bool3.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\bool4.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\boolswizzle.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\float1.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\float2.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\float2swizzle.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\float3.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\float3swizzle.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\float4.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\float4swizzle.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\float4x4.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\floatswizzle.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\int1.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\int2.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\int3.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\int4.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\intswizzle.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\math.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Cam\Base.h">
+      <Filter>Source\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="Cam\FirstPerson.h">
+      <Filter>Source\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Shader.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowOnFail.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
